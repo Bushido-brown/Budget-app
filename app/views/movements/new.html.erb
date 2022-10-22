@@ -2,7 +2,7 @@
   <%= form_with model: movement, url: create_movement_path, method: :post, local: true, scope: :movement do |f| %>
     <div class="newheader">
       <div>&nbsp;<%= link_to "<", "/categories/#{@category.id}", class: "rawlinkwhite" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-      <div>NEW TRANSACTION</div>
+      <div>NEW MOVEMENT</div>
       <div><%= f.submit "Create", class: 'submitlogin' %>&nbsp;</div>
     </div>
     <% flash.each do |type, msg| %>
