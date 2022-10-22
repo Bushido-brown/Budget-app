@@ -32,7 +32,11 @@
 
 ## Live Demo
 
+- https://pocket-friendly.herokuapp.com/
+
 ## Demonstration video
+
+- https://www.loom.com/share/6675465484ce41948d376501f63f4d7b
 
 ## Authors
 
